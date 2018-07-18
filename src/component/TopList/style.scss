@@ -1,0 +1,50 @@
+#topList{
+    padding:5px;
+    background-color:#f3f3f4;
+    li{
+        margin-bottom: 5px;
+        padding:10px;
+        border-radius: 3px;
+        background-color:#fff;
+        box-shadow: 0 0 2px #f5f5f5;
+        h3.title{
+            line-height:20px;
+        }
+        .des{
+            margin-top:10px;
+            line-height: 20px;
+            font-size:13px;
+            color:#767676;
+            img{
+                width:100%;
+            }
+        }
+        .num{
+            height: 40px;
+            
+            overflow: hidden;
+            font-size:12px;
+            color:#767676;
+            .anthor, .look{
+                float:left;
+                img{
+                    position: relative;
+                    top:4px;
+                    width:20px;
+                    height: 20px;
+                    border-radius: 2px;
+                    margin-right:10px;
+                }
+            }
+            .look{
+                margin-left:50px;
+            }
+            .icon-look{
+                position: relative;
+                top:4px;
+                padding-right:4px;
+                color:#767676;
+            }
+        }
+    }
+}
