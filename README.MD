@@ -4,24 +4,15 @@
 react + react-router + redux + immutable + less + ES6/7 + webpack + fetch
 
 
-## install
-
- 	git clone https://github.com/FIGHTING-TOP/React-Item.git
-
- 	cd React-Item
-
- 	npm install
-
-
-## run（nodejs 6.0+）
+## run
 ```
- npm run dev (正常编译模式)
+ 	git clone https://github.com/FIGHTING-TOP/easy-react.git
 
- npm run hot (热替换编译模式)
+ 	cd easy-react
 
- 访问 http://localhost:8088
-
- npm run dist （发布生产版本，对代码进行混淆压缩，提取公共代码，分离css文件）
+ 	cnpm install
+  
+  npm start
 ```
 
 
